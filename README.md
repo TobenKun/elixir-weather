@@ -17,6 +17,18 @@
 
 erlang vm이 필요합니다.
 
+### 출력 결과
+
+```
+======================= Weather Station ========================
+location    : Albuquerque, Albuquerque International Airport, NM
+weather     : Fair
+station_id  : KABQ
+temperature : 61.0 F (16.1 C)
+wind        : North at 6.9 MPH (6 KT)
+================================================================
+```
+
 ## 테스트
 
 다음 명령어로 테스트를 실행할 수 있습니다:
