@@ -18,7 +18,7 @@ defmodule Weather.CLI do
 
   def decode_response({:error, error}) do
     IO.puts("Error fetching from weather.gov: #{error["message"]}")
-    System.halt(2)
+    exit(2)
   end
 
   def print_pretty(map) do
