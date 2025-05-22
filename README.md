@@ -12,8 +12,10 @@
 터미널에서 다음과 같이 실행할 수 있습니다:
 
 ```sh
-mix run -e 'Weather.CLI.main(["Seoul"])'
+./weather
 ```
+
+erlang vm이 필요합니다.
 
 ## 테스트
 
